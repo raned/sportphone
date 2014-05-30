@@ -7,7 +7,7 @@
     <author email="nettvtele@gmail.com" href="">
         Eternity
     </author>
-    <icon src="res/sportgo.png" />
+    <icon src="res/sportsgo.png" />
 
     <content src="index.html" />
     <access origin="*" />
