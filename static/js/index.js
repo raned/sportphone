@@ -13,15 +13,17 @@ $(document).ready(function(){
 	$('#menu').click(function() {  
              
            if($("#right_slide").width()< 200){               
-                $("#right_slide").animate({left:'-200px'}, {queue:false, duration: 500});          
+                $("#right_slide").animate({left:'-200px'}, {queue:false, duration: 500});    
+                $("#right_slide").css({"overflow-y":"auto"});
            }
            else
            {            
-                  $("#right_slide").animate({left:'40px'}, {queue:false, duration: 500});                  
+                  $("#right_slide").animate({left:'40px'}, {queue:false, duration: 500}); 
+                  $("#right_slide").css({"overflow-y":"hidden"});
            }
         
         
-          var arr = ["skys", "skys1", "skys2"];
+          var arr = ["skys", "skys1", "skys2", "skys3", "skys4"];
           $("#ch").html("");
           for(var ar in arr)
             $("#ch").append("<li style='margin:5px;height:100px;width:85%;'><a style='width:100%; background:url(img/"+arr[ar]+".jpg);  background-repeat: no-repeat; background-size:cover;margin-bottom:2%; display:block; background-position: center;background-size: 100% 100%;position:relative; height:100%;' value='"+arr[ar]+"' href='#'></a></li>");
