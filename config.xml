@@ -7,8 +7,29 @@
     <author email="nettvtele@gmail.com" href="">
         Eternity
     </author>
-    <icon src="res/sportgo.png" />
+    <icon src="res/sportsgo.png" />
 
     <content src="index.html" />
     <access origin="*" />
+    
+    
+
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <gap:plugin name="org.apache.cordova.media" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+
+    <gap:splash src="res/android/images/res-long-land-ldpi/default.png" gap:platform="android" gap:qualifier="port-ldpi" />
+    <gap:splash src="res/android/images/res-notlong-port-mdpi/default.png" gap:platform="android" gap:qualifier="port-mdpi" />
+    <gap:splash src="res/android/images/res-long-port-hdpi/default.png" gap:platform="android" gap:qualifier="port-hdpi" />
+    <gap:splash src="res/android/images/res-long-land-xhdpi/default.png" gap:platform="android" gap:qualifier="port-xhdpi" />
+    
+    <gap:splash src="res/blackberry/splash-720x720.png" gap:platform="blackberry" />
+    <gap:splash src="res/iphone/Default-Portrait.png" gap:platform="ios" width="320" height="480" />
+    <gap:splash src="res/iphone/Default-Portrait@2x.png" gap:platform="ios" width="640" height="960" />
+    <gap:splash src="res/iphone/Default-568h@2x.png" gap:platform="ios" width="640" height="1136" />
+    
+    <gap:splash src="res/iphone/Default.png" gap:platform="ios" width="768" height="1024" />
+    <gap:splash src="res/iphone/Default-Landscape.png" gap:platform="ios" width="1024" height="768" />
+  
+    
 </widget>
