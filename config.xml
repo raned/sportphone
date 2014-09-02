@@ -64,5 +64,6 @@
 
 <icon src="res/sportsgo.png" />
 
+<access origin="*"/>
 
 </widget>
